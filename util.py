@@ -3,7 +3,7 @@ import random
 def benchmark(algo, list, passes):
     import time
     start = time.time()
-    for i in range(0, passes+1):
+    for i in range(0, passes):
         algo(list)
     end = time.time()
     time = end-start
